@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Prinsip_74163N
+#
+DEF Prinsip_74163N U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Prinsip_74163N" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -200 -450 39 0 0 0 "  ENP" Normal 0 C C
+T 0 -200 -200 39 0 0 0 " A" Normal 0 C C
+T 0 -200 -250 39 0 0 0 " B" Normal 0 C C
+T 0 -200 -300 39 0 0 0 " C" Normal 0 C C
+T 0 -200 -350 39 0 0 0 " D" Normal 0 C C
+T 0 -200 -500 39 0 0 0 " ENT" Normal 0 C C
+T 0 -200 -650 39 0 0 0 CLR Normal 0 R C
+S -250 -100 250 -850 0 1 0 N
+P 2 0 1 0 -100 -100 -100 -850 N
+P 2 0 1 0 150 -100 150 -850 N
+X LOAD ~ -350 -600 100 R 43 43 1 1 I I
+X ~ ~ -350 -800 100 R 43 43 1 1 I C
+X ~ ~ -350 -650 100 R 43 43 1 1 I I
+X ~ ~ -250 -500 100 L 43 43 1 1 I
+X ~ ~ -250 -450 100 L 43 43 1 1 I
+X ~ ~ -250 -350 100 L 43 43 1 1 I
+X ~ ~ -250 -300 100 L 43 43 1 1 I
+X ~ ~ -250 -250 100 L 43 43 1 1 I
+X ~ ~ -250 -200 100 L 43 43 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
