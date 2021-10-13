@@ -9,21 +9,10 @@ Date ""
 Rev ""
 Comp "МГТУ им. Н.Э. Баумана\\nгруппа ИУ6-64Б"
 Comment1 "Код Баркера"
-Comment2 ""
+Comment2 "Рожнов В.Д."
 Comment3 "Захаров М.А."
 Comment4 ""
 $EndDescr
-$Comp
-L Prinsip:74163N U?
-U 1 1 6166D0AD
-P 4750 2700
-F 0 "U?" H 4692 2765 50  0000 C CNN
-F 1 "74163N" H 4692 2674 50  0000 C CNN
-F 2 "" H 4750 2700 50  0001 C CNN
-F 3 "" H 4750 2700 50  0001 C CNN
-	1    4750 2700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Prinsip:7410N U?
 U 1 1 6166773C
@@ -33,17 +22,6 @@ F 1 "7410N" H 6200 3925 50  0000 C CNN
 F 2 "" H 6200 3700 50  0001 C CNN
 F 3 "" H 6200 3700 50  0001 C CNN
 	1    6200 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Prinsip:7432N U?
-U 1 1 61674B22
-P 3750 3550
-F 0 "U?" H 3750 3966 50  0000 C CNN
-F 1 "7432N" H 3750 3875 50  0000 C CNN
-F 2 "" H 3750 3650 50  0001 C CNN
-F 3 "" H 3750 3650 50  0001 C CNN
-	1    3750 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -124,17 +102,6 @@ F 3 "" H 11850 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Prinsip:74157N U?
-U 1 1 6167DF8D
-P 13100 5250
-F 0 "U?" H 13100 5966 50  0000 C CNN
-F 1 "74157N" H 13100 5875 50  0000 C CNN
-F 2 "" H 13150 5850 50  0001 C CNN
-F 3 "" H 13150 5850 50  0001 C CNN
-	1    13100 5250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Prinsip:74F164D U?
 U 1 1 616815DE
 P 14600 5250
@@ -172,52 +139,6 @@ Wire Wire Line
 Wire Wire Line
 	13900 6750 14050 6750
 Connection ~ 14050 6750
-Entry Wire Line
-	15150 5000 15250 5100
-Entry Wire Line
-	15150 5100 15250 5200
-Entry Wire Line
-	15150 5200 15250 5300
-Entry Wire Line
-	15150 5300 15250 5400
-Entry Wire Line
-	15150 5400 15250 5500
-Entry Wire Line
-	15150 5500 15250 5600
-Entry Wire Line
-	15150 5600 15250 5700
-Entry Wire Line
-	15150 5700 15250 5800
-Entry Wire Line
-	15150 6650 15250 6750
-Entry Wire Line
-	15150 6750 15250 6850
-Entry Wire Line
-	15150 6850 15250 6950
-Wire Wire Line
-	14050 5700 13600 5700
-Wire Wire Line
-	13600 5800 14050 5800
-Wire Wire Line
-	14050 7350 13600 7350
-Wire Wire Line
-	13600 7450 14050 7450
-Entry Wire Line
-	13500 5600 13600 5700
-Entry Wire Line
-	13500 5700 13600 5800
-Entry Wire Line
-	13500 7250 13600 7350
-Entry Wire Line
-	13500 7350 13600 7450
-Text Notes 13650 5700 0    50   ~ 0
-SHIFT_CLR
-Text Notes 13650 5800 0    50   ~ 0
-CLK
-Text Notes 13650 7350 0    50   ~ 0
-SHIFT_CLR
-Text Notes 13650 7450 0    50   ~ 0
-CLK
 Wire Wire Line
 	12400 5500 12550 5500
 Wire Wire Line
@@ -280,290 +201,18 @@ Wire Wire Line
 	8550 7200 8550 6200
 Wire Wire Line
 	8550 6200 8900 6200
-$Comp
-L Prinsip:74ALS11AM U?
-U 1 1 61683DD5
-P 8850 1500
-F 0 "U?" H 8850 1916 50  0000 C CNN
-F 1 "74ALS11AM" H 8850 1825 50  0000 C CNN
-F 2 "" H 8850 1600 50  0001 C CNN
-F 3 "" H 8850 1600 50  0001 C CNN
-	1    8850 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Prinsip:7405N U?
-U 1 1 61689988
-P 7600 1300
-F 0 "U?" H 7600 1816 50  0000 C CNN
-F 1 "7405N" H 7600 1725 50  0000 C CNN
-F 2 "" H 7600 1500 50  0001 C CNN
-F 3 "" H 7600 1500 50  0001 C CNN
-	1    7600 1300
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	8200 1400 8300 1500
-Entry Wire Line
-	8200 1500 8300 1600
-Wire Wire Line
-	8300 1500 8350 1500
-Wire Wire Line
-	8300 1600 8350 1600
-Wire Wire Line
-	8150 1300 8350 1300
-Wire Wire Line
-	8350 1300 8350 1400
-Wire Bus Line
-	8200 1850 9450 1850
 Wire Wire Line
 	6700 2350 6800 2350
 Wire Wire Line
 	4300 3550 4400 3550
 Wire Wire Line
 	3050 3650 3200 3650
-$Comp
-L Prinsip:SW U?
-U 1 1 61704F9E
-P 1500 2550
-F 0 "U?" H 1500 2717 50  0001 C CNN
-F 1 "S8" H 1500 2625 50  0000 C CNN
-F 2 "" H 1500 2550 50  0001 C CNN
-F 3 "" H 1500 2550 50  0001 C CNN
-	1    1500 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Prinsip:SW U?
-U 1 1 61705691
-P 1500 2850
-F 0 "U?" H 1500 3017 50  0001 C CNN
-F 1 "S7" H 1500 2925 50  0000 C CNN
-F 2 "" H 1500 2850 50  0001 C CNN
-F 3 "" H 1500 2850 50  0001 C CNN
-	1    1500 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 2600 1200 2600
-Wire Wire Line
-	1350 2700 1200 2700
-Wire Wire Line
-	1350 2900 1200 2900
-Wire Wire Line
-	1350 3000 1200 3000
-Entry Wire Line
-	1100 2500 1200 2600
-Entry Wire Line
-	1100 2600 1200 2700
-Entry Wire Line
-	1100 2800 1200 2900
-Entry Wire Line
-	1100 2900 1200 3000
-Text Notes 1200 2600 0    50   ~ 0
-VCC
-Text Notes 1200 2700 0    50   ~ 0
-GND
-Text Notes 1200 2900 0    50   ~ 0
-VCC
-Text Notes 1200 3000 0    50   ~ 0
-GND
-$Comp
-L Prinsip:SW U?
-U 1 1 6172909D
-P 1500 3150
-F 0 "U?" H 1500 3317 50  0001 C CNN
-F 1 "S6" H 1500 3225 50  0000 C CNN
-F 2 "" H 1500 3150 50  0001 C CNN
-F 3 "" H 1500 3150 50  0001 C CNN
-	1    1500 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Prinsip:SW U?
-U 1 1 617290A3
-P 1500 3450
-F 0 "U?" H 1500 3617 50  0001 C CNN
-F 1 "S5" H 1500 3525 50  0000 C CNN
-F 2 "" H 1500 3450 50  0001 C CNN
-F 3 "" H 1500 3450 50  0001 C CNN
-	1    1500 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 3200 1200 3200
-Wire Wire Line
-	1350 3300 1200 3300
-Wire Wire Line
-	1350 3500 1200 3500
-Wire Wire Line
-	1350 3600 1200 3600
-Entry Wire Line
-	1100 3100 1200 3200
-Entry Wire Line
-	1100 3200 1200 3300
-Entry Wire Line
-	1100 3400 1200 3500
-Entry Wire Line
-	1100 3500 1200 3600
-Text Notes 1200 3200 0    50   ~ 0
-VCC
-Text Notes 1200 3300 0    50   ~ 0
-GND
-Text Notes 1200 3500 0    50   ~ 0
-VCC
-Text Notes 1200 3600 0    50   ~ 0
-GND
-$Comp
-L Prinsip:SW U?
-U 1 1 6172B855
-P 1500 3750
-F 0 "U?" H 1500 3917 50  0001 C CNN
-F 1 "S4" H 1500 3825 50  0000 C CNN
-F 2 "" H 1500 3750 50  0001 C CNN
-F 3 "" H 1500 3750 50  0001 C CNN
-	1    1500 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Prinsip:SW U?
-U 1 1 6172B85B
-P 1500 4050
-F 0 "U?" H 1500 4217 50  0001 C CNN
-F 1 "S3" H 1500 4125 50  0000 C CNN
-F 2 "" H 1500 4050 50  0001 C CNN
-F 3 "" H 1500 4050 50  0001 C CNN
-	1    1500 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 3800 1200 3800
-Wire Wire Line
-	1350 3900 1200 3900
-Wire Wire Line
-	1350 4100 1200 4100
-Wire Wire Line
-	1350 4200 1200 4200
-Entry Wire Line
-	1100 3700 1200 3800
-Entry Wire Line
-	1100 3800 1200 3900
-Entry Wire Line
-	1100 4000 1200 4100
-Entry Wire Line
-	1100 4100 1200 4200
-Text Notes 1200 3800 0    50   ~ 0
-VCC
-Text Notes 1200 3900 0    50   ~ 0
-GND
-Text Notes 1200 4100 0    50   ~ 0
-VCC
-Text Notes 1200 4200 0    50   ~ 0
-GND
-$Comp
-L Prinsip:SW U?
-U 1 1 6172EF1D
-P 1500 4350
-F 0 "U?" H 1500 4517 50  0001 C CNN
-F 1 "S2" H 1500 4425 50  0000 C CNN
-F 2 "" H 1500 4350 50  0001 C CNN
-F 3 "" H 1500 4350 50  0001 C CNN
-	1    1500 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Prinsip:SW U?
-U 1 1 6172EF23
-P 1500 4650
-F 0 "U?" H 1500 4817 50  0001 C CNN
-F 1 "S1" H 1500 4725 50  0000 C CNN
-F 2 "" H 1500 4650 50  0001 C CNN
-F 3 "" H 1500 4650 50  0001 C CNN
-	1    1500 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 4400 1200 4400
-Wire Wire Line
-	1350 4500 1200 4500
-Wire Wire Line
-	1350 4700 1200 4700
-Wire Wire Line
-	1350 4800 1200 4800
-Entry Wire Line
-	1100 4300 1200 4400
-Entry Wire Line
-	1100 4400 1200 4500
-Entry Wire Line
-	1100 4600 1200 4700
-Entry Wire Line
-	1100 4700 1200 4800
-Text Notes 1200 4400 0    50   ~ 0
-VCC
-Text Notes 1200 4500 0    50   ~ 0
-GND
-Text Notes 1200 4700 0    50   ~ 0
-VCC
-Text Notes 1200 4800 0    50   ~ 0
-GND
 Wire Wire Line
 	6700 3600 6700 4000
 Wire Wire Line
 	1950 4000 1950 3750
 Wire Wire Line
-	1650 4500 1850 4500
-Wire Wire Line
-	1850 4500 1850 3550
-Wire Wire Line
-	1850 3550 1950 3550
-Wire Wire Line
-	1650 4800 4300 4800
-Wire Wire Line
-	4300 4800 4300 3650
-Wire Wire Line
-	4300 3650 4400 3650
-Wire Bus Line
-	1100 900  1750 900 
-Wire Bus Line
-	6450 900  6450 400 
-Wire Bus Line
-	6450 400  6800 400 
-Connection ~ 9450 400 
-Wire Bus Line
-	9450 400  16050 400 
-Entry Wire Line
-	9350 1500 9450 1600
-Connection ~ 1750 900 
-Wire Bus Line
-	1750 900  3100 900 
-Entry Wire Line
-	1650 2700 1750 2800
-Entry Wire Line
-	1650 3000 1750 3100
-Entry Wire Line
-	1650 3300 1750 3400
-Entry Wire Line
-	1650 3600 1750 3700
-Entry Wire Line
-	1650 3900 1750 4000
-Entry Wire Line
-	1650 4200 1750 4300
-Wire Wire Line
 	6800 1300 6800 2350
-Connection ~ 3100 900 
-Entry Wire Line
-	3100 3350 3200 3450
-Wire Bus Line
-	6800 400  6800 1200
-Connection ~ 6800 400 
-Wire Bus Line
-	6800 400  9450 400 
-Entry Wire Line
-	6800 1200 6900 1300
-Entry Bus Bus
-	3100 2400 3200 2500
-Wire Bus Line
-	3200 2500 4150 2500
 Entry Wire Line
 	4150 2800 4250 2900
 Entry Wire Line
@@ -594,8 +243,6 @@ Text GLabel 5250 3300 2    50   Input ~ 0
 RCO
 Wire Wire Line
 	5200 3300 5250 3300
-Wire Bus Line
-	3100 900  6450 900 
 $Comp
 L Prinsip:74ALS21AM U?
 U 1 1 6166F230
@@ -748,8 +395,8 @@ $Comp
 L Prinsip:HDSP-4830_2_copy BAR?
 U 1 1 619249F3
 P 12550 3200
-F 0 "BAR?" H 12550 3867 50  0000 C CNN
-F 1 "HDSP-4830_2_copy" H 12550 3776 50  0000 C CNN
+F 0 "BAR?" H 12550 3867 50  0001 C CNN
+F 1 "HDSP-4830_2_copy" H 12550 3776 50  0001 C CNN
 F 2 "Display:HDSP-4830" H 12550 2400 50  0001 C CNN
 F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 10550 3400 50  0001 C CNN
 	1    12550 3200
@@ -1001,7 +648,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 10200 4250 10200
 Wire Wire Line
-	2300 10250 2300 10850
+	2300 10250 2300 10600
 Wire Wire Line
 	2300 10850 3100 10850
 Wire Wire Line
@@ -1037,7 +684,7 @@ F 3 "" H 6600 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6050 11000 0    50   Input ~ 0
-TO_BUFFER_1
+TO_BUFFER
 Wire Wire Line
 	7150 9700 7150 11000
 Text GLabel 7650 9500 2    50   Input ~ 0
@@ -1090,88 +737,278 @@ Wire Wire Line
 	2450 10150 2350 10150
 Wire Wire Line
 	2350 10150 2350 10050
-Text GLabel 2350 9400 1    50   Input ~ 0
-+5V
 Connection ~ 2350 9500
 Wire Wire Line
 	2350 9400 2350 9500
 Wire Wire Line
 	2300 10250 2450 10250
 $Comp
-L Prinsip:SW U?
-U 1 1 61C45C7A
-P 2150 10100
-F 0 "U?" H 2150 10267 50  0001 C CNN
-F 1 "S3" H 2150 10175 50  0000 C CNN
-F 2 "" H 2150 10100 50  0001 C CNN
-F 3 "" H 2150 10100 50  0001 C CNN
-	1    2150 10100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 61C5AE8B
-P 2000 10250
-F 0 "#PWR?" H 2000 10000 50  0001 C CNN
-F 1 "Earth" H 2000 10100 50  0001 C CNN
-F 2 "" H 2000 10250 50  0001 C CNN
-F 3 "~" H 2000 10250 50  0001 C CNN
-	1    2000 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 10150 2000 9800
-Wire Wire Line
-	2000 9800 2350 9800
-$Comp
 L power:Earth #PWR?
 U 1 1 61C7552E
-P 2550 11250
-F 0 "#PWR?" H 2550 11000 50  0001 C CNN
-F 1 "Earth" H 2550 11100 50  0001 C CNN
-F 2 "" H 2550 11250 50  0001 C CNN
-F 3 "~" H 2550 11250 50  0001 C CNN
-	1    2550 11250
+P 3100 11250
+F 0 "#PWR?" H 3100 11000 50  0001 C CNN
+F 1 "Earth" H 3100 11100 50  0001 C CNN
+F 2 "" H 3100 11250 50  0001 C CNN
+F 3 "~" H 3100 11250 50  0001 C CNN
+	1    3100 11250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Prinsip:R U?
+L Prinsip:R R1
 U 1 1 61C8D271
-P 2250 11150
-F 0 "U?" H 2250 11275 50  0000 C CNN
-F 1 "R" H 2250 11184 50  0000 C CNN
-F 2 "" H 2250 11150 50  0001 C CNN
-F 3 "" H 2250 11150 50  0001 C CNN
-	1    2250 11150
+P 2800 11150
+F 0 "R1" H 2800 11275 50  0000 C CNN
+F 1 "10k" H 2800 11184 50  0000 C CNN
+F 2 "" H 2800 11150 50  0001 C CNN
+F 3 "" H 2800 11150 50  0001 C CNN
+	1    2800 11150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prinsip:SW1 U?
 U 1 1 61C98DF7
 P 1550 11050
-F 0 "U?" H 1550 11165 50  0000 C CNN
+F 0 "U?" H 1550 11165 50  0001 C CNN
 F 1 "SW1" H 1550 11074 50  0000 C CNN
 F 2 "" H 1550 11050 50  0001 C CNN
 F 3 "" H 1550 11050 50  0001 C CNN
 	1    1550 11050
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	3100 900  3100 3350
+$Comp
+L Принципиально-rescue:TAB-Prinsip U?
+U 1 1 6167FD6B
+P 2200 6800
+F 0 "U?" H 3128 7170 50  0001 L CNN
+F 1 "TAB-Prinsip" H 3128 7124 50  0001 L CNN
+F 2 "" H 850 7900 50  0001 C CNN
+F 3 "" H 850 7900 50  0001 C CNN
+	1    2200 6800
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	6800 1300 7050 1300
-Wire Bus Line
-	9450 400  9450 1850
-Wire Bus Line
-	8200 1400 8200 1850
-Wire Bus Line
-	13500 5550 13500 8100
-Wire Bus Line
-	1750 900  1750 4300
-Wire Bus Line
-	4150 2500 4150 3400
-Wire Bus Line
-	15250 4700 15250 8100
-Wire Bus Line
-	1100 900  1100 5000
+Text GLabel 1950 3750 0    50   Input ~ 0
+TO_BUFFER
+Text GLabel 4150 2600 1    50   Input ~ 0
++5V
+$Comp
+L Prinsip:7432N U?
+U 1 1 61674B22
+P 3750 3550
+F 0 "U?" H 3750 3966 50  0000 C CNN
+F 1 "7432N" H 3750 3875 50  0000 C CNN
+F 2 "" H 3750 3650 50  0001 C CNN
+F 3 "" H 3750 3650 50  0001 C CNN
+	1    3750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Prinsip:74163N U?
+U 1 1 6166D0AD
+P 4750 2700
+F 0 "U?" H 4692 2765 50  0000 C CNN
+F 1 "74163N" H 4692 2674 50  0000 C CNN
+F 2 "" H 4750 2700 50  0001 C CNN
+F 3 "" H 4750 2700 50  0001 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 3650 0    50   Input ~ 0
++5V
+Text GLabel 6800 1800 2    50   Input ~ 0
+A1
+Text GLabel 3200 3450 0    50   Input ~ 0
+A1
+$Comp
+L Prinsip:7405N U?
+U 1 1 61689988
+P 7600 1300
+F 0 "U?" H 7600 1816 50  0000 C CNN
+F 1 "7405N" H 7600 1725 50  0000 C CNN
+F 2 "" H 7600 1500 50  0001 C CNN
+F 3 "" H 7600 1500 50  0001 C CNN
+	1    7600 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 1300 2    50   Input ~ 0
+SHIFT_CLR
+Text GLabel 1950 3550 0    50   Input ~ 0
++5V
+$Comp
+L Prinsip:74157N U?
+U 1 1 6167DF8D
+P 13100 5250
+F 0 "U?" H 13100 5966 50  0000 C CNN
+F 1 "74157N" H 13100 5875 50  0000 C CNN
+F 2 "" H 13150 5850 50  0001 C CNN
+F 3 "" H 13150 5850 50  0001 C CNN
+	1    13100 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 14050 5700 0    50   Input ~ 0
+SHIFT_CLR
+Text GLabel 14050 5800 0    50   Input ~ 0
+CLK
+Text GLabel 14050 7350 0    50   Input ~ 0
+SHIFT_CLR
+Text GLabel 14050 7450 0    50   Input ~ 0
+CLK
+Text GLabel 15150 5000 2    50   Input ~ 0
+Q0
+Text GLabel 15150 5100 2    50   Input ~ 0
+Q1
+Text GLabel 15150 5200 2    50   Input ~ 0
+Q2
+Text GLabel 15150 5300 2    50   Input ~ 0
+Q3
+Text GLabel 15150 5400 2    50   Input ~ 0
+Q4
+Text GLabel 15150 5500 2    50   Input ~ 0
+Q5
+Text GLabel 15150 5600 2    50   Input ~ 0
+Q6
+Text GLabel 15150 6650 2    50   Input ~ 0
+Q7
+Text GLabel 15150 6750 2    50   Input ~ 0
+Q8
+Text GLabel 15150 6850 2    50   Input ~ 0
+Q9
+Text GLabel 15150 6950 2    50   Input ~ 0
+Q10
+$Comp
+L power:+5V #PWR?
+U 1 1 618049B7
+P 2350 9400
+F 0 "#PWR?" H 2350 9250 50  0001 C CNN
+F 1 "+5V" H 2365 9573 50  0000 C CNN
+F 2 "" H 2350 9400 50  0001 C CNN
+F 3 "" H 2350 9400 50  0001 C CNN
+	1    2350 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 1 1 61818676
+P 2100 10600
+F 0 "SW2" H 2100 10793 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2100 10794 50  0001 C CNN
+F 2 "" H 2100 10600 50  0001 C CNN
+F 3 "~" H 2100 10600 50  0001 C CNN
+	1    2100 10600
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2300 10600
+Wire Wire Line
+	2300 10600 2300 10850
+Wire Wire Line
+	1900 10500 1900 9800
+Wire Wire Line
+	1900 9800 2350 9800
+$Comp
+L power:Earth #PWR?
+U 1 1 6183C2E7
+P 1900 10700
+F 0 "#PWR?" H 1900 10450 50  0001 C CNN
+F 1 "Earth" H 1900 10550 50  0001 C CNN
+F 2 "" H 1900 10700 50  0001 C CNN
+F 3 "~" H 1900 10700 50  0001 C CNN
+	1    1900 10700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 11250 1150 9800
+Wire Wire Line
+	1150 9800 1900 9800
+Connection ~ 1900 9800
+Wire Wire Line
+	1950 11250 2450 11250
+Wire Wire Line
+	2450 10350 2450 11250
+Connection ~ 2450 11250
+Wire Wire Line
+	2450 11250 2500 11250
+Text GLabel 4400 3750 0    50   Input ~ 0
+CLK
+$Comp
+L Принципиально-rescue:Resonator-Device ZQ1
+U 1 1 61873DE1
+P 2850 5600
+F 0 "ZQ1" H 2850 5757 50  0000 C CNN
+F 1 "Resonator-Device" H 2850 5757 50  0001 C CNN
+F 2 "" H 2825 5600 50  0001 C CNN
+F 3 "" H 2825 5600 50  0001 C CNN
+	1    2850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 61876A3C
+P 2850 5800
+F 0 "#PWR?" H 2850 5550 50  0001 C CNN
+F 1 "Earth" H 2850 5650 50  0001 C CNN
+F 2 "" H 2850 5800 50  0001 C CNN
+F 3 "~" H 2850 5800 50  0001 C CNN
+	1    2850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Prinsip:7405N U?
+U 1 1 6187BF3E
+P 2850 5000
+F 0 "U?" H 2850 5516 50  0000 C CNN
+F 1 "7405N" H 2850 5425 50  0000 C CNN
+F 2 "" H 2850 5200 50  0001 C CNN
+F 3 "" H 2850 5200 50  0001 C CNN
+	1    2850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5000 2300 5600
+Wire Wire Line
+	2300 5600 2700 5600
+$Comp
+L Принципиально-rescue:R_Small-Device R2
+U 1 1 61894119
+P 3400 5300
+F 0 "R2" H 3459 5300 50  0000 L CNN
+F 1 "R_Small-Device" H 3459 5255 50  0001 L CNN
+F 2 "" H 3400 5300 50  0001 C CNN
+F 3 "" H 3400 5300 50  0001 C CNN
+	1    3400 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5000 3400 5200
+Wire Wire Line
+	3400 5400 3400 5600
+Wire Wire Line
+	3400 5600 3000 5600
+$Comp
+L Принципиально-rescue:R_Small-Device R1
+U 1 1 618A4A80
+P 2850 4300
+F 0 "R1" V 2746 4300 50  0000 C CNN
+F 1 "R_Small-Device" V 2745 4300 50  0001 C CNN
+F 2 "" H 2850 4300 50  0001 C CNN
+F 3 "" H 2850 4300 50  0001 C CNN
+	1    2850 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 4300 2300 5000
+Connection ~ 2300 5000
+Wire Wire Line
+	2950 4300 3400 4300
+Wire Wire Line
+	3400 4300 3400 5000
+Connection ~ 3400 5000
+Wire Wire Line
+	2300 4300 2750 4300
+Text GLabel 3500 5000 2    50   Input ~ 0
+CLK
+Wire Wire Line
+	3400 5000 3500 5000
+Wire Wire Line
+	4150 2600 4150 3350
 $EndSCHEMATC
