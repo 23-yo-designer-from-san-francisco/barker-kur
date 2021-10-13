@@ -12,4 +12,16 @@ K Single D Flip-Flop D CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP HDSP-4830_2
+D BAR GRAPH 10 segment block, high efficiency red
+K display LED array
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
+$CMP HDSP-4830_2_copy
+D BAR GRAPH 10 segment block, high efficiency red
+K display LED array
+F https://docs.broadcom.com/docs/AV02-1798EN
+$ENDCMP
+#
 #End Doc Library
