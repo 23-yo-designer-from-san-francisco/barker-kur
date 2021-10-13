@@ -463,6 +463,20 @@ X A 3 -200 200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Prinsip_R
+#
+DEF Prinsip_R U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Prinsip_R" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 -50 100 -150 0 1 0 N
+X ~ ~ -300 -100 197 R 50 50 1 1 I
+X ~ ~ 300 -100 197 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Prinsip_SW
 #
 DEF Prinsip_SW U 0 40 Y Y 1 F N
@@ -475,6 +489,20 @@ P 2 0 1 0 -50 -50 50 -150 N
 X ~ ~ -150 -150 100 R 43 43 1 1 I
 X ~ ~ -150 -50 100 R 43 43 1 1 I
 X ~ ~ 150 -150 100 L 43 43 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Prinsip_SW1
+#
+DEF Prinsip_SW1 U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Prinsip_SW1" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 4 0 1 0 -150 -150 150 -150 0 -150 0 -50 N
+X ~ ~ -400 -200 300 R 50 50 1 1 I I
+X ~ ~ 400 -200 300 L 50 50 1 1 I I
 ENDDRAW
 ENDDEF
 #
