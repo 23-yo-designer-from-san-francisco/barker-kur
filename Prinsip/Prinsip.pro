@@ -1,4 +1,4 @@
-update=10/12/2021 11:50:03 PM
+update=10/13/2021 9:42:09 AM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=gost_landscape.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=.
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
