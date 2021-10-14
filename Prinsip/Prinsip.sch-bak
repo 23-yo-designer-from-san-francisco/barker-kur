@@ -1054,10 +1054,10 @@ F 3 "" H 3600 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Принципиально-rescue:con-Prinsip C2..C11
+L Принципиально-rescue:con-Prinsip C2..C12
 U 1 1 61687D14
 P 3550 7250
-F 0 "C2..C11" H 3525 7333 50  0000 C CNN
+F 0 "C2..C12" H 3525 7333 50  0000 C CNN
 F 1 "con-Prinsip" H 3525 7334 50  0001 C CNN
 F 2 "" H 3600 7550 50  0001 C CNN
 F 3 "" H 3600 7550 50  0001 C CNN
@@ -1083,9 +1083,15 @@ Wire Wire Line
 	3850 7300 3650 7300
 Wire Wire Line
 	3650 6900 3850 6900
-Wire Wire Line
-	4150 2600 4150 3350
 Connection ~ 3850 6900
 Wire Wire Line
 	3850 6900 3850 7300
+Text Notes 3700 6850 0    50   ~ 0
++
+Text Notes 1750 7600 0    50   ~ 0
+Контакт 16 микросхем\nDD2, DD5, DD6, DD17, DD18,\nDD22, DD23, DD24, DD25, DD26\nподключить к VCC
+Text Notes 1750 8100 0    50   ~ 0
+Контакт 8 микросхем\nDD2, DD5, DD6, DD17, DD18,\nDD22, DD23, DD24, DD25, DD26\nПодключить к GND
+Wire Wire Line
+	4150 2600 4150 3350
 $EndSCHEMATC
