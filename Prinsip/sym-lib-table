@@ -3,4 +3,5 @@
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
   (lib (name Принципиально-rescue)(type Legacy)(uri ${KIPRJMOD}/Принципиально-rescue.lib)(options "")(descr ""))
   (lib (name Switch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Switch.lib)(options "")(descr ""))
+  (lib (name Prinsip-rescue)(type Legacy)(uri ${KIPRJMOD}/Prinsip-rescue.lib)(options "")(descr ""))
 )
