@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Func:barker_gen U?
 U 1 1 6167F0F3
-P 5350 3400
-F 0 "U?" H 6178 3021 50  0001 L CNN
-F 1 "barker_gen" H 6178 2930 50  0001 L CNN
-F 2 "" H 5350 3400 50  0001 C CNN
-F 3 "" H 5350 3400 50  0001 C CNN
-	1    5350 3400
+P 5200 3400
+F 0 "U?" H 6028 3021 50  0001 L CNN
+F 1 "barker_gen" H 6028 2930 50  0001 L CNN
+F 2 "" H 5200 3400 50  0001 C CNN
+F 3 "" H 5200 3400 50  0001 C CNN
+	1    5200 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -119,18 +119,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 6500 3350 4050
 Wire Wire Line
-	3100 4050 3350 4050
-Wire Wire Line
-	3350 4050 3700 4050
-Connection ~ 3350 4050
-Wire Wire Line
-	7000 4550 7850 4550
-Wire Wire Line
 	7850 5400 8250 5400
 Wire Wire Line
 	9350 5500 10000 5500
-Wire Wire Line
-	7000 3950 9850 3950
 Wire Wire Line
 	9850 5350 10000 5350
 Wire Wire Line
@@ -139,8 +130,6 @@ Wire Wire Line
 	9850 5650 10000 5650
 Wire Wire Line
 	7850 4550 7850 5400
-Wire Wire Line
-	7000 4250 8100 4250
 Wire Wire Line
 	8100 4250 8100 5250
 Wire Wire Line
@@ -159,4 +148,38 @@ Text Notes 11200 5450 0    50   ~ 0
 11
 Text Notes 12100 5600 0    50   ~ 0
 11
+Wire Wire Line
+	11600 3700 11600 5250
+Wire Wire Line
+	11600 5250 12050 5250
+Text Notes 1950 4350 0    118  ~ 0
+1
+Text Notes 5000 4700 0    118  ~ 0
+2
+Wire Wire Line
+	3550 4050 3700 4050
+Wire Wire Line
+	3100 4050 3350 4050
+Connection ~ 3550 4050
+Connection ~ 3350 4050
+Wire Wire Line
+	3350 4050 3550 4050
+Wire Wire Line
+	6850 3700 11600 3700
+Wire Wire Line
+	6850 3950 9850 3950
+Wire Wire Line
+	6850 4250 8100 4250
+Wire Wire Line
+	6850 4550 7850 4550
+Text Notes 4750 5750 0    118  ~ 0
+3
+Text Notes 8750 5900 0    118  ~ 0
+4
+Text Notes 10600 5850 0    118  ~ 0
+5
+Text Notes 12650 5850 0    118  ~ 0
+6
+Text Notes 14400 4850 0    118  ~ 0
+7
 $EndSCHEMATC
