@@ -152,7 +152,7 @@ Wire Wire Line
 	11600 3700 11600 5250
 Wire Wire Line
 	11600 5250 12050 5250
-Text Notes 1950 4350 0    118  ~ 0
+Text Notes 2000 4300 0    118  ~ 0
 1
 Text Notes 5000 4700 0    118  ~ 0
 2
