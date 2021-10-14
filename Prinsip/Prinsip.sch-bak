@@ -1010,18 +1010,16 @@ CLK
 Wire Wire Line
 	3400 5000 3500 5000
 $Comp
-L Switch:SW_DPDT_x2 SW?
+L Switch:SW_DPDT_x2 SW3
 U 1 1 616811AA
 P 4050 10100
-F 0 "SW?" H 4050 10293 50  0000 C CNN
+F 0 "SW3" H 4050 10293 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 4050 10294 50  0001 C CNN
 F 2 "" H 4050 10100 50  0001 C CNN
 F 3 "~" H 4050 10100 50  0001 C CNN
 	1    4050 10100
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 2600 4150 3350
 $Comp
 L power:Earth #PWR?
 U 1 1 61689F33
@@ -1044,4 +1042,50 @@ F 3 "" H 3850 10000 50  0001 C CNN
 	1    3850 10000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Принципиально-rescue:con-Prinsip С1
+U 1 1 61687866
+P 3450 6750
+F 0 "С1" H 3425 6833 50  0000 C CNN
+F 1 "con-Prinsip" H 3425 6834 50  0001 C CNN
+F 2 "" H 3500 7050 50  0001 C CNN
+F 3 "" H 3500 7050 50  0001 C CNN
+	1    3450 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Принципиально-rescue:con-Prinsip С2..С11
+U 1 1 61688A5C
+P 3450 7100
+F 0 "С2..С11" H 3425 7183 50  0000 C CNN
+F 1 "con-Prinsip" H 3425 7184 50  0001 C CNN
+F 2 "" H 3500 7400 50  0001 C CNN
+F 3 "" H 3500 7400 50  0001 C CNN
+	1    3450 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 7150 3200 7150
+Wire Wire Line
+	3200 7150 3200 6800
+Wire Wire Line
+	3200 6600 3100 6600
+Wire Wire Line
+	3300 6800 3200 6800
+Connection ~ 3200 6800
+Wire Wire Line
+	3200 6800 3200 6600
+Wire Wire Line
+	3100 6450 3650 6450
+Wire Wire Line
+	3650 6450 3650 6800
+Wire Wire Line
+	3650 7150 3550 7150
+Wire Wire Line
+	3550 6800 3650 6800
+Wire Wire Line
+	4150 2600 4150 3350
+Connection ~ 3650 6800
+Wire Wire Line
+	3650 6800 3650 7150
 $EndSCHEMATC
