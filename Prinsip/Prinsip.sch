@@ -1042,6 +1042,52 @@ F 3 "" H 3850 10000 50  0001 C CNN
 	1    3850 10000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Принципиально-rescue:con-Prinsip C1
+U 1 1 616875C2
+P 3550 6850
+F 0 "C1" H 3525 6933 50  0000 C CNN
+F 1 "con-Prinsip" H 3525 6934 50  0001 C CNN
+F 2 "" H 3600 7150 50  0001 C CNN
+F 3 "" H 3600 7150 50  0001 C CNN
+	1    3550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Принципиально-rescue:con-Prinsip C2..C11
+U 1 1 61687D14
+P 3550 7250
+F 0 "C2..C11" H 3525 7333 50  0000 C CNN
+F 1 "con-Prinsip" H 3525 7334 50  0001 C CNN
+F 2 "" H 3600 7550 50  0001 C CNN
+F 3 "" H 3600 7550 50  0001 C CNN
+	1    3550 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6750 3250 6750
+Wire Wire Line
+	3250 6750 3250 6900
+Wire Wire Line
+	3250 7300 3400 7300
+Wire Wire Line
+	3400 6900 3250 6900
+Connection ~ 3250 6900
+Wire Wire Line
+	3250 6900 3250 7300
+Wire Wire Line
+	3150 6550 3850 6550
+Wire Wire Line
+	3850 6550 3850 6900
+Wire Wire Line
+	3850 7300 3650 7300
+Wire Wire Line
+	3650 6900 3850 6900
 Wire Wire Line
 	4150 2600 4150 3350
+Connection ~ 3850 6900
+Wire Wire Line
+	3850 6900 3850 7300
+Text Notes 3700 6850 0    50   ~ 0
++
 $EndSCHEMATC
