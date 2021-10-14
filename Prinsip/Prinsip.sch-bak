@@ -1089,9 +1089,9 @@ Wire Wire Line
 Text Notes 3700 6850 0    50   ~ 0
 +
 Text Notes 1750 7600 0    50   ~ 0
-Контакт 16 микросхем\nDD2, DD5, DD6, DD17, DD18,\nDD22, DD23, DD24, DD25, DD26\nподключить к VCC
+Контакт 16 микросхем\nDD2, DD5, DD6, DD17, DD18,\nDD22, DD23, DD24, DD25, DD26, DD27\nподключить к VCC
 Text Notes 1750 8100 0    50   ~ 0
-Контакт 8 микросхем\nDD2, DD5, DD6, DD17, DD18,\nDD22, DD23, DD24, DD25, DD26\nПодключить к GND
+Контакт 8 микросхем\nDD2, DD5, DD6, DD17, DD18,\nDD22, DD23, DD24, DD25, DD26, DD27\nПодключить к GND
 Wire Wire Line
 	4150 2600 4150 3350
 $EndSCHEMATC
